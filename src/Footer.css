@@ -1,0 +1,26 @@
+.container5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #39236e;
+    height:60px;
+    align-items: center;
+ 
+}
+.container6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+}
+.head{
+    font-family: Roboto;
+    padding-top:3px;
+    font-size:medium;
+    color:white;
+    text-align: center;
+}
+.container6>.MuiSvgIcon-root{
+    color:goldenrod;
+    padding-bottom: 7px;;
+}

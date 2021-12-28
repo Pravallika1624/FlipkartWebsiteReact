@@ -1,0 +1,96 @@
+.header{
+    background-color: #2874f0;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:10px;
+    position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.listContainer{
+    background-color:#fcf8f7 ;
+}
+.header__first>img{
+    width: 75px;
+    object-fit: contain;
+}
+.header__first{
+    padding-right: -100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 120px;
+}
+.header__second{
+    display:flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 3px;
+}
+.header__second>input{
+    border:none;
+    outline: none;
+    width:36vw;
+    padding : 10px 15px;
+    border-radius: 3px;
+}
+.header__second>.MuiSvgIcon-root{
+    color:#2874f0;
+    font-size: 25px;
+}
+.header__third>button{
+    border:none;
+    outline: none;
+    width:9vw;
+    color:#2874f0;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    padding:7px;
+}
+.header__fourth{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.header__fourth>span{
+    color:white;
+    font-weight: 600;
+}
+.header__fourth>.MuiSvgIcon-root{
+    color: white;
+}
+.header__fifth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__fifth>.MuiSvgIcon-root{
+    color:white;
+}
+.header__fifth>p{
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.listContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.sale{
+    font-family: Roboto;
+    font-size: large;
+    color: black;
+    text-align:start;
+    padding-top: 10px;
+}
+.spanTag{
+    color:goldenrod;
+    font-family:Roboto;
+    font-weight: 1200;
+    font-size:x-large;
+
+}

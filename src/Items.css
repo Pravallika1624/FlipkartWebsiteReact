@@ -1,0 +1,84 @@
+.card-container{
+    background-color: #f5f4f2;
+    padding:2px;
+    margin:20px;
+    list-style-type: none;
+    width:230px;
+    height: 350px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.img{
+    width:100%;
+    height:40%;
+    text-align: center;
+}
+.name{
+    color:black;
+    font-size: large;
+    font-weight: 600;
+    margin-right:10px;
+    font-family:Roboto;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.container4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.container8{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.avail{
+    color: green;
+    font-family: Roboto;
+    font-size:small;
+}
+.notAvail{
+    color: red;
+    font-family: Roboto;
+    font-size:small;
+}
+.money{
+    font-size:large;
+    font-family:Roboto;
+    color:green;
+}
+.para1{
+    color:gray;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.para2{
+    color: gray;
+    font-size: small;
+    font-family: Roboto;
+}
+.button{
+    background-color: burlywood;
+    
+}
+.para{
+    font-weight: 700;
+    margin :3px;
+}
+.purchaseBtn{
+    height:40px;
+    width:100px;
+    background-color: cornflowerblue;
+    color:white;
+    border-radius: 2px;
+    border-width: 0px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 1px 1px;
+}
